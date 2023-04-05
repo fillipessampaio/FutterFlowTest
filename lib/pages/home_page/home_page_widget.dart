@@ -394,6 +394,18 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                       );
                     },
                   ),
+                  Container(
+                    width: 120.0,
+                    height: 120.0,
+                    clipBehavior: Clip.antiAlias,
+                    decoration: BoxDecoration(
+                      shape: BoxShape.circle,
+                    ),
+                    child: Image.network(
+                      'https://picsum.photos/seed/545/600',
+                      fit: BoxFit.cover,
+                    ),
+                  ),
                 ],
               );
             },
